@@ -281,8 +281,6 @@ BuildRequires: python%{python3_pkgversion}-subunit-test
 #endif fedora
 %endif
 BuildRequires: bind
-# Required by samba-tool to run tests
-BuildRequires: python%{python3_pkgversion}-crypto
 %endif
 
 # filter out perl requirements pulled in from examples in the docdir.
